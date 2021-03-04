@@ -1,0 +1,81 @@
+@import "./styles/colors.css";
+@import "./styles/fonts.css";
+
+body {
+  background-color: var(--black) !important;
+}
+.header {
+  color: azure;
+}
+.header2 {
+  padding-left: 20px;
+  height: 50px;
+}
+.container {
+  height: 500px;
+}
+
+.activate {
+  background-color: var(--greyish-brown);
+  color: white;
+  position: absolute;
+  box-shadow: 1px 1px black;
+  right: 30px;
+  top: 5px;
+}
+.tabs {
+  background-color: yellow;
+}
+
+.chat-box {
+  margin-top: 10vh;
+  height: 60vh;
+  background-color: var(--greyish-brown);
+  color: white;
+  overflow-y: scroll;
+}
+.chat-box::-webkit-scrollbar {
+  display: none;
+}
+
+.userinput-box {
+  margin-top: 20px;
+  min-height: 80px;
+  border: 1px solid var(--black);
+  width: 100%;
+  background-color: var(--greyish-brown);
+  color: white;
+  text-align: center;
+  box-shadow: 2px 2px black;
+}
+
+.message {
+  background-color: #404040;
+  border-radius: 10px;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+}
+
+.apply-changes-button {
+  width: 100%;
+  font-size: small;
+  background: var(--greyish-brown);
+  color: white;
+  border: 1px solid var(--greyish-brown);
+  box-shadow: 2px 2px black;
+  /* margin-right: 20px; */
+}
+.apply-activate {
+  background: green;
+}
+.tabs-list {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.tab-button {
+  background: var(--black);
+  color: aliceblue;
+  border: 1px solid #706f6f;
+  border-radius: 5px;
+  cursor: pointer;
+}
