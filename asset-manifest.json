@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Chat-Bot/static/css/main.85298b92.chunk.css",
+    "main.js": "/Chat-Bot/static/js/main.8e7e0321.chunk.js",
+    "main.js.map": "/Chat-Bot/static/js/main.8e7e0321.chunk.js.map",
+    "runtime-main.js": "/Chat-Bot/static/js/runtime-main.53799333.js",
+    "runtime-main.js.map": "/Chat-Bot/static/js/runtime-main.53799333.js.map",
+    "static/css/2.fc2db407.chunk.css": "/Chat-Bot/static/css/2.fc2db407.chunk.css",
+    "static/js/2.e4a03da1.chunk.js": "/Chat-Bot/static/js/2.e4a03da1.chunk.js",
+    "static/js/2.e4a03da1.chunk.js.map": "/Chat-Bot/static/js/2.e4a03da1.chunk.js.map",
+    "index.html": "/Chat-Bot/index.html",
+    "static/css/2.fc2db407.chunk.css.map": "/Chat-Bot/static/css/2.fc2db407.chunk.css.map",
+    "static/css/main.85298b92.chunk.css.map": "/Chat-Bot/static/css/main.85298b92.chunk.css.map",
+    "static/js/2.e4a03da1.chunk.js.LICENSE.txt": "/Chat-Bot/static/js/2.e4a03da1.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Chat-Bot/static/media/Quicksand-Regular.cffc2790.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53799333.js",
+    "static/css/2.fc2db407.chunk.css",
+    "static/js/2.e4a03da1.chunk.js",
+    "static/css/main.85298b92.chunk.css",
+    "static/js/main.8e7e0321.chunk.js"
+  ]
+}
