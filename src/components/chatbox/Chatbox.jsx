@@ -2,14 +2,10 @@ import React, { useState, useEffect, useRef } from "react";
 import { Col, Row } from "antd";
 import ChatMessage from "./ChatMessage";
 import { useDispatch, useSelector } from "react-redux";
-import {
-  sendMessage,
-  sendUserRequest,
-  setBotResponse,
-} from "../../redux/actions";
+import { sendUserMessage } from "../../redux/actions";
 import PulseLoader from "react-spinners/PulseLoader";
 
-const Chatbox = (props) => {
+const Chatbox = () => {
   const divRef = useRef(null);
 
   useEffect(() => {
@@ -38,19 +34,8 @@ const Chatbox = (props) => {
         userMessage: msg,
         botMessage: <PulseLoader color={"white"} size={10} />,
       };
-      dispatch(
-        sendMessage({
-          ...chatMsg,
-        })
-      );
+      dispatch(sendUserMessage({ ...chatMsg }, code));
       setMsg("");
-      const { data } = await sendUserRequest(code, msg);
-      dispatch(
-        setBotResponse({
-          key: currentKey,
-          botMessage: data,
-        })
-      );
     }
   };
   return (
